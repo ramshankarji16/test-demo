@@ -1,0 +1,16 @@
+curl https://reqbin.com/echo
+   -H "Authorization: Basic bG9naW46cGFzc3dvcmQ"
+
+curl https://stage.saksoff5th.com/ -H "Authorization: Basic U3RvcmVmcm9udDpzdGdTTzUyMDIz"
+
+curl https://stage.saksoff5th.com/search?search-button=&q=*&lang=en_US -H "Authorization: Basic U3RvcmVmcm9udDpzdGdTTzUyMDIz"
+
+https://stage.saksoff5th.com/search?search-button=&q=*&lang=en_US
+
+curl https://stage.saksoff5th.com/search?search-button=&q=*&lang=en_US?api_key=U3RvcmVmcm9udDpzdGdTTzUyMDIz"
+
+
+curl -H "Authorization: Basic U3RvcmVmcm9udDpzdGdTTzUyMDIz" https://stage.saksoff5th.com/search?search-button=&q=*&lang=en_US
+
+curl -H 'Authorization: Basic U3RvcmVmcm9udDpzdGdTTzUyMDIz' https://stage.saksoff5th.com/search?search-button=&q=*&lang=en_US
+
